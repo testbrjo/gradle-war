@@ -1,0 +1,10 @@
+description = 'Basic war built with gradle'
+
+apply plugin: 'war'
+
+compileJava {
+    sourceCompatibility = "1.7"
+    targetCompatibility = "1.7"
+}
+
+defaultTasks 'compileJava', 'war'
